@@ -51,15 +51,9 @@ class MumbaiMetro:
         self.metro_graph = MetroGraph()
         self.metro_map = {
             'Line 1 (Versova-Andheri-Ghatkopar)': ['Versova', 'D.N. Nagar', 'Azad Nagar', 'Andheri', 'Western Express Highway', 'Chakala (J.B.Nagar)', 'Airport Road', 'Marol Naka', 'Saki Naka', 'Asalpha', 'Jagruti Nagar', 'Ghatkopar'],
-            'Line 2A (Dahisar-D.N. Nagar)': ['Dahisar East', 'Anand Nagar', 'Kandarpada', 'Mandapeshwar', 'Eksar', 'Borivali West', 'Shimpoli', 'Kandivali West', 'Dahanukarwadi', 'Valnai', 'Malad West', 'Lower Malad', 'Bangur Nagar', 'Goregaon West', 'Oshiwara', 'Goregaon East', 'Jogeshwari West', 'Andheri West', 'Azad Nagar', 'D.N. Nagar'],
-            'Line 2B (D.N. Nagar-Mandale)': ['D.N. Nagar', 'Shyam Nagar', 'Acharya Atre Nagar', 'Wadala', 'Naigaon', 'Antop Hill', 'Sewri', 'Siddhivinayak', 'Curry Road', 'Worli', 'Mahalaxmi', 'Sukh Sagar', 'Chinchpokli', 'Byculla', 'Sandhurst Road', 'Grant Road', 'Marine Lines', 'Mumtaz Mahal', 'Nava Sheva', 'Mandale'],
-            'Line 3 (Colaba-Bandra-SEEPZ)': ['Cuffe Parade', 'Vidhan Bhavan', 'Churchgate', 'Hutatma Chowk', 'CST', 'Kalbadevi', 'Girgaon', 'Grant Road', 'Mumbai Central', 'Mahalaxmi', 'Science Museum', 'Acharya Atre Nagar', 'Worli', 'Siddhivinayak', 'Dadar', 'Shitladevi', 'Dharavi', 'BKC', 'Vidya Nagari', 'Santacruz', 'CSIA', 'Marol Naka', 'MIDC', 'SEEPZ'],
-            'Line 4 (Wadala-Ghatkopar-Thane-Kasarvadavali)': ['Wadala', 'Sewri', 'Priyadarshini', 'Kurla East', 'Chunabhatti', 'Ghatkopar', 'Godrej & Boyce', 'Vikhroli', 'Gandhi Nagar', 'Bhandup', 'Powai Lake', 'Hiranandani', 'Wagad', 'Manpada', 'Kapurbawdi', 'Majiwada', 'Tikuji-Ni-Wadi', 'Cadbury Junction', 'Thane', 'Kasarvadavali'],
-            'Line 5 (Thane-Bhiwandi-Kalyan)': ['Thane', 'Kalher', 'Purna', 'Anjurphata', 'Dhamankar Naka', 'Bhiwandi', 'Govegaon MIDC', 'Temghar', 'Pisavli', 'Dombivli MIDC', 'Kalyan East'],
-            'Line 6 (Swami Samarth Nagar-Vikhroli)': ['Swami Samarth Nagar', 'Lokhandwala', 'Shastri Nagar', 'Jogeshwari Vikhroli Link Road', 'SEEPZ Village', 'Powai Lake', 'Hiranandani', 'Vikhroli'],
-            'Line 7 (Dahisar East-Andheri East)': ['Dahisar East', 'Ovaripada', 'Rushi Sankul', 'Western Express Highway', 'Pathanwadi', 'Aarey', 'Gundavali', 'Airport Colony', 'Marol Naka', 'SEEPZ'],
-            'Line 8 (Airport Express Line)': ['CSIA T2', 'CSIA T1', 'Sahar Road'],
-            # Add more lines and stations as per Mumbai Metro map
+            'Line 2 (Dahisar-D.N. Nagar)': ['Dahisar East', 'Anand Nagar', 'Kandarpada', 'Mandapeshwar', 'Eksar', 'Borivali West', 'Shimpoli', 'Kandivali West', 'Dahanukarwadi', 'Valnai', 'Malad West', 'Lower Malad', 'Bangur Nagar', 'Goregaon West', 'Oshiwara', 'Goregaon East', 'Jogeshwari West', 'Andheri West', 'Azad Nagar', 'D.N. Nagar'],
+            'Line 3 (D.N. Nagar-Mandale)': ['D.N. Nagar', 'Shyam Nagar', 'Acharya Atre Nagar', 'Wadala', 'Naigaon', 'Antop Hill', 'Sewri', 'Siddhivinayak', 'Curry Road', 'Worli', 'Mahalaxmi', 'Sukh Sagar', 'Chinchpokli', 'Byculla', 'Sandhurst Road', 'Grant Road', 'Marine Lines', 'Mumtaz Mahal', 'Nava Sheva', 'Mandale'],
+            
         }
         self.metro_fares = {
             # Approximate fares between adjacent stations for Line 1 (in INR)
